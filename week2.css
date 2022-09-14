@@ -1,0 +1,165 @@
+.wrapper{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 80px;
+    line-height: 106px;
+}
+h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+h5{
+    font-size: 24px;
+    line-height: 42px;
+}
+p{
+    font-size: 24px;
+    line-height: 36px;
+}
+.color-white{
+    color:#fff;
+}
+.icon-img{
+    height: 60px;
+    width: 60px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-image: url(image/week2/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner-content{
+    width: 304px;
+    padding: 308px 0;
+}
+.banner-discribe{
+    margin-top: 32px;
+    margin-bottom: 40px;
+    width:283px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;   
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 56px 0 ;
+}
+.about-content{
+    text-align: center;
+}
+.about-img{
+    width: 384px;
+    height: 384px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about-date{
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.about-describe{
+    width: 412px;
+}
+.about-list{
+   display: flex;
+   justify-content: center;
+}
+li::before{
+    content: "\2022";
+    color: #891818;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+}
+.about-ul{    
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 28px;
+    border-top: 1px solid #000000;
+    width: 384px;
+    height: 152px;
+    margin: 24px 0;
+    font-size: 24px;
+    line-height: 42px;
+}
+.brand{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+    padding-bottom: 160px;
+}
+.brand-content{
+    text-align: center;
+}
+.brand-title{
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.brand-describe{
+    display: inline-block;
+    width: 320px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 68px;
+}
+.brand-imgout1{
+    margin-bottom: 40px;
+}
+.brand-img1{
+    width: 792px;
+    height: 416px;
+}
+.brand-img2{
+    width: 588px;
+    height: 416px;
+    margin: 0 12px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 360px ;
+    padding-top: 56px;
+    padding-bottom: 96px;
+}
+.work-img{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+.work img{
+    margin-bottom: 16px;
+}
+.work p{
+    font-size: 20px;
+    line-height: 42px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}       
+.work-container{  
+     padding-top: 56px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    padding: 64px 0;
+    text-align: center;
+}
+
